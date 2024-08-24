@@ -9,7 +9,7 @@ else:
     
 so_ngay = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
-if kiem_tra:
+if kiem_tra == "Năm nhuận":
     so_ngay[1] = 29
 
 
@@ -23,5 +23,5 @@ else:
      elif yy <1 :
         print("Năm không hợp lệ")
     
-print("Xác định năm: ", kiem_tra)
+print("Xác định năm nhuận hoặc không nhuận: ", kiem_tra)
       
